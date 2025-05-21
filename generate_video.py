@@ -18,8 +18,8 @@ if not os.path.exists(config.FACE_IMAGE_FILE):
 log("Starting TTS processing...")
 script_content = load_script(config.SCRIPT_FILE)
 log(f"Script loaded: {script_content[:50]}...")
-generate_audio(script_content, config.AUDIO_FILE)
-log(f"Audio generated and saved to {config.AUDIO_FILE}")
+generate_audio(script_content, config.AUDIO_FILE, lang=config.TTS_LANGUAGE)
+log(f"Audio generated and saved to {config.AUDIO_FILE} using language: {config.TTS_LANGUAGE}")
 
 # Ensure audio file exists (it should have been created by TTS)
 if not os.path.exists(config.AUDIO_FILE):

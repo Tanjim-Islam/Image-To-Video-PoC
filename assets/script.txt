@@ -1,9 +1,2 @@
-Hello, this is Emma watson, an actress.
-
-Thank you for checking out this latest AI demo.
-
-This proof of concept takes a static image and turns it into a talking video.
-
-We're using text-to-speech and lipsync technology — all running locally.
-
-If you're seeing this, the pipeline is working as expected.
+Hei! Olen tekoäly, ja puhun nyt suomea.
+Tämä on testi videon luomiseksi kasvo- ja äänitiedolla. 

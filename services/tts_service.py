@@ -16,10 +16,10 @@ def load_script(path: str) -> str:
         log(f"Error loading script from {path}: {e}")
         raise
 
-def generate_audio(text: str, out_path: str):
-    log(f"Generating audio for text (first 50 chars): '{text[:50]}...' to {out_path}")
+def generate_audio(text: str, out_path: str, lang: str = 'en'):
+    log(f"Generating audio for text (first 50 chars): '{text[:50]}...' to {out_path} in language: {lang}")
     try:
-        tts = gTTS(text=text, lang='en')
+        tts = gTTS(text=text, lang=lang)
         tts.save(out_path)
         log(f"Audio successfully generated and saved to {out_path}")
     except Exception as e:
