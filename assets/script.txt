@@ -1,1 +1,9 @@
-Hello, this is a test script. 
+Hello, this is Emma watson, an actress.
+
+Thank you for checking out this latest AI demo.
+
+This proof of concept takes a static image and turns it into a talking video.
+
+We're using text-to-speech and lipsync technology — all running locally.
+
+If you're seeing this, the pipeline is working as expected.

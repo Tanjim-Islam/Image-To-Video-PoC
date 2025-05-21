@@ -25,6 +25,7 @@ You are building a local PoC that:
 
 3. **Use the `checklist.md` to track task completion.**
    - After finishing each task:
+     - Confirm the task is implemented and tested
      - Mark the task as `[x]` in `./checklist.md`
      - Save the modified checklist file
 
@@ -46,3 +47,11 @@ You are building a local PoC that:
   - Testable
 - Don’t add comments, logs, or cleanups unrelated to the current task
 - If you need something external (e.g. downloading a model, installing CUDA), tell me clearly
+
+---
+
+### TESTING REQUIREMENT
+
+- **You must test the code you write.**
+  - Verify that each function or script runs and produces the expected output
+  - Only mark a task complete if the code has been tested and works as intended
