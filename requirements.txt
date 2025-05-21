@@ -1,0 +1,19 @@
+# TTS Dependencies
+gTTS
+
+# Wav2Lip Dependencies (and its sub-dependencies)
+# For PyTorch, specify the version and the index URL for CUDA compatibility
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.7.0+cu118
+torchvision==0.22.0+cu118
+torchaudio==2.7.0+cu118
+
+librosa
+numpy
+opencv-python
+scipy
+tqdm
+
+# Other common libraries that might have been pulled in by Wav2Lip
+# or are generally useful (face_detection is part of Wav2Lip clone)
+# Add any other specific versions if installation issues arise for users. 

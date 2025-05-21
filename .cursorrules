@@ -1,0 +1,48 @@
+You’re an engineer building this codebase.
+
+You've been given:
+- ./architecture.md – to understand the system layout and component roles
+- ./tasks.md – the build plan with atomic, testable tasks
+- ./checklist.md – to track task completion
+
+---
+
+### OBJECTIVE
+You are building a local PoC that:
+- Takes a face image and a text script
+- Converts the script to voice (TTS)
+- Generates a lipsynced video using Wav2Lip
+- Works entirely offline, modular, and minimal
+
+---
+
+### EXECUTION RULES
+
+1. **Read `./architecture.md` and `./tasks.md` before you begin.**
+   - There should be no ambiguity about what we’re building.
+
+2. **Only work on ONE task at a time**, following the order in `./tasks.md`.
+
+3. **Use the `checklist.md` to track task completion.**
+   - After finishing each task:
+     - Mark the task as `[x]` in `./checklist.md`
+     - Save the modified checklist file
+
+4. **Create and activate a Python virtual environment inside the repo.**
+   - Use correct Python version (recommended: 3.8)
+   - Install required packages via pip as needed
+   - Save them to `requirements.txt`
+
+---
+
+### CODING PROTOCOL
+
+- Write the **absolute minimum code** needed to complete the task
+- No sweeping changes, only focused edits
+- Don’t break any existing logic
+- Code must be:
+  - Precise
+  - Modular
+  - Testable
+- Don’t add comments, logs, or cleanups unrelated to the current task
+- If you need something external (e.g. downloading a model, installing CUDA), tell me clearly
