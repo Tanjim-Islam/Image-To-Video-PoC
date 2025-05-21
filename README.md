@@ -104,6 +104,8 @@ Once the setup is complete and input files are in place:
     python generate_video.py
     ```
 
+    The script currently defaults to generating audio in Finnish. To change the language, you can modify the `TTS_LANGUAGE` variable in `config.py` to your desired [gTTS supported language code](https://gtts.readthedocs.io/en/latest/module.html#languages-gtts-lang).
+
 3.  Follow the console logs for progress.
 
 ## Output
